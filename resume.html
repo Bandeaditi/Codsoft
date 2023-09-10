@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Aditi Bande</title>
+    <style>
+
+
+        /* CSS styles for the resume */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(128, 0, 128, 0.3); /* Purple shade */
+        }
+        .container {
+            max-width: 1300px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            display: flex;
+            justify-content: space-between; /* Align content to left and right */
+        }
+        .left-column {
+            width: 70%;
+        }
+        .right-column {
+            width: 28%; /* Adjust the width as needed */
+            position: relative;
+        }
+        .image-container {
+            width: 100%;
+            padding-top: 100%; /* 1:1 aspect ratio for the image container */
+            position: relative;
+        }
+        .image-background {
+            background-color: rgba(128, 0, 128, 0.5); /* Darker background behind the image */
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            box-shadow: 0 0 20px rgba(128, 0, 128, 0.5); /* Glowy effect */
+        }
+        .image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Maintain aspect ratio and cover container */
+            z-index: 1; /* Place image above background */
+        }
+        /* Curves at right top and left bottom corners */
+       
+
+     /* Resume content styles */
+        .resume-content {
+            padding: 20px;
+        }
+        .resume-heading {
+            font-size: 24px;
+            margin: 0;
+            color: #333;
+        }
+        .resume-text {
+            color: #666;
+        }
+        /* Footer styles */
+        .footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            width: 100%;
+            position:relative;
+            bottom: 0;
+        }
+
+       
+ /* Curves at right top and left bottom corners */
+.curve {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(128, 0, 128, 0.5); /* One shade darker than background */
+    border-radius: 50%;
+}
+
+.curve.top-right {
+    top: -10px; /* Add 'px' to specify the unit */
+    right: -10px; /* Add 'px' to specify the unit */
+}
+
+.curve.bottom-left {
+    bottom: -10px; /* Add 'px' to specify the unit */
+    left: -10px; /* Add 'px' to specify the unit */
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <div class="resume-content">
+                <section>
+                    <h2 class="resume-heading">Aditi Bande</h2>
+                    <p>Email: aditi.bande@email.com | Phone: (123) 456-7890</p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/aditibande" target="_blank">linkedin.com/in/aditibande</a></p>
+
+                    <h3 class="resume-heading">Objective:</h3>
+                    <p class="resume-text">
+                        Dedicated and passionate Computer Science student with a strong foundation in programming, algorithms, and software development. Seeking challenging internship opportunities to apply my skills and gain practical experience in the field.
+                    </p>
+<!-- Add your other resume sections here with proper HTML structure -->
+<section>
+    <h3 class="resume-heading">Education:</h3>
+    <p class="resume-text">
+        Bachelor of Science in Computer Science<br>
+        S.I.E.S College of Arts, Science & Commerce<br>
+        Expected Graduation: May 2024
+    </p>
+
+    <h3 class="resume-heading">Skills:</h3>
+    <p class="resume-text">
+        Programming Languages: Java, Python, C++<br>
+        Web Technologies: HTML, CSS, JavaScript<br>
+        Database Management: SQL<br>
+        Software Tools: Git, Visual Studio Code<br>
+        Operating Systems: Windows, Linux<br>
+        Problem Solving: Strong analytical and problem-solving skills
+    </p>
+
+    <h3 class="resume-heading">Projects:</h3>
+    <p class="resume-text">
+        1. E-commerce Website (2023)<br>
+        - Developed a fully functional e-commerce website using HTML, CSS, and JavaScript.<br>
+        - Implemented user authentication, product listing, and shopping cart features.<br>
+        - Utilized Firebase for backend support.<br><br>
+
+        2. Machine Learning Predictive Model (2022)<br>
+        - Built a machine learning model to predict stock prices using Python and scikit-learn.<br>
+        - Conducted data analysis, feature engineering, and model training.<br>
+        - Achieved an accuracy rate of 85% in stock price prediction.<br><br>
+
+        3. Database Management System (2021)<br>
+        - Designed a relational database system for a library management application.<br>
+        - Implemented SQL queries for book cataloging, member management, and borrowing history.
+    </p>
+
+    <h3 class="resume-heading">Experience:</h3>
+    <p class="resume-text">
+        Summer Intern<br>
+        XYZ Tech Solutions | Summer 2023<br>
+        - Assisted in software development tasks, including coding, debugging, and testing.<br>
+        - Collaborated with a team of developers to improve the performance of web applications.<br>
+        - Participated in daily stand-up meetings to discuss project progress and challenges.<br><br>
+
+        Technical Support Intern<br>
+        ABC Software Inc. | Summer 2022<br>
+        - Provided technical support to end-users, troubleshooting software and hardware issues.<br>
+        - Documented and resolved customer inquiries via email and phone.<br>
+        - Assisted in the creation of user guides and documentation for software products.
+    </p>
+
+    <h3 class="resume-heading">Extracurricular Activities:</h3>
+    <p class="resume-text">
+        - Member of the Computer Science Club, actively participating in coding competitions and hackathons.<br>
+        - Volunteered as a mentor for high school students in a coding bootcamp program.<br>
+        - Attended workshops and seminars on emerging technologies and trends in computer science.
+    </p>
+
+    <h3 class="resume-heading">Languages:</h3>
+    <p class="resume-text">
+        - English (Fluent)<br>
+        - Spanish (Basic)
+    </p>
+</section>
+
+                </section>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="image-container">
+                <div class="image-background"></div>
+                <img class="image" src="image.jpg" alt="Aditi Bande's Photo">
+                <div class="curve top-right"></div>
+                <div class="curve bottom-left"></div>
+            </div>
+        </div>
+    </div>
+   
+    <footer class="footer">
+        &copy; 2023 Aditi Bande
+    </footer>
+</body>
+</html>
